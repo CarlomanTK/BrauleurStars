@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Comparatif Joueurs Brawl Stars</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+        th { background-color: #f2f2f2; }
+    </style>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+</head>
+<body>
+    <h1>Statistiques des Joueurs</h1>
+    <table id="table_index">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Tag</th>
+                <th>Trophées</th>
+                <th>Meilleur Score</th>
+                <th>Niveau</th>
+                <th>Club</th>
+                <th>3v3</th>
+                <th>Solo</th>
+                <th>Duo</th>
+                <th># Brawlers</th>
+                <th>Star Powers</th>
+                <th>Gadgets</th>
+                <th>Gears</th>
+                <th>Brawlers Power 11</th>
+                <th>Moyenne Trophées</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <td><a href="joueur_9C0PR00G.html">smity</a></td>
+                <td>#9C0PR00G</td>
+                <td>93100</td>
+                <td>93100</td>
+                <td>224</td>
+                <td>TEAM SD</td>
+                <td>6887</td>
+                <td>2888</td>
+                <td>2020</td>
+                <td>93</td>
+                <td>186</td>
+                <td>186</td>
+                <td>341</td>
+                <td>93</td>
+                <td>1001.08</td>
+            </tr>
+            
+            <tr>
+                <td><a href="joueur_20UJ80CUV.html">BeautifulSoup</a></td>
+                <td>#20UJ80CUV</td>
+                <td>93320</td>
+                <td>93320</td>
+                <td>199</td>
+                <td>TEAM SD</td>
+                <td>4980</td>
+                <td>1161</td>
+                <td>4224</td>
+                <td>93</td>
+                <td>128</td>
+                <td>136</td>
+                <td>165</td>
+                <td>79</td>
+                <td>1003.44</td>
+            </tr>
+            
+            <tr>
+                <td><a href="joueur_9YPLYLQYR.html">Arthur</a></td>
+                <td>#9YPLYLQYR</td>
+                <td>88665</td>
+                <td>88667</td>
+                <td>165</td>
+                <td>TEAM SD</td>
+                <td>2407</td>
+                <td>1246</td>
+                <td>3055</td>
+                <td>89</td>
+                <td>100</td>
+                <td>94</td>
+                <td>43</td>
+                <td>11</td>
+                <td>996.24</td>
+            </tr>
+            
+        </tbody>
+    </table>
+    <script>
+      $(document).ready(function() {
+        $('#table_index').DataTable();
+      });
+    </script>
+</body>
+</html>
